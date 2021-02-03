@@ -1,0 +1,57 @@
+
+/******* 导航栏开始 *******/ 
+.nav{
+	background: url(../images/homepage_nav.png) no-repeat;
+	background-size: 158px 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 158px;
+	height: 100%;
+	z-index: 998;
+}
+/******* 主体开始 *******/ 
+/******* 第一屏开始 *******/ 
+.Out_brand {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	.In_brand {
+		background: url(../images/homepage_bg2.jpg) no-repeat;
+		padding-top: 18%;
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+		.top_div{
+			position: relative;
+			margin: 0 auto;
+			width: 60%;
+			img{
+				width: 100%;
+			}
+			.homepage_btn_start{
+				background-image: url(../images/homepage_btn_start.png);
+				width: 165px;
+				height: 58px;
+				margin: 0 auto;
+				position: absolute;
+				left: 50%;
+				top: 135%;
+				margin-left: -82px;
+				cursor: pointer;
+			}
+		}
+		.arrow_div{
+			position: absolute;
+			bottom: 40px;
+			width: 100%;
+			div{
+				width: 65px;
+				margin: 0 auto;
+				cursor: pointer;
+			}
+		}
+	}
+}
